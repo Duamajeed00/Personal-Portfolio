@@ -18,7 +18,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 
-import WorkSliderBtns from "@/components/WorkSliderBtns";
+// import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
     {
@@ -64,7 +64,7 @@ const Work = () => {
      }
 
     return (
-        <motion.section
+        <section
          initial={{opacity: 0}}
          animte={{opacity: 1, transition: {delay:2.4, duration: 0.4, ease: "easeIn"},
         }}
@@ -150,13 +150,13 @@ const Work = () => {
                                 )
                             })}
                             {/* slider buttons */}
-                            <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" 
-                            btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all "/>
+                            {/* <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" 
+                            btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all "/> */}
                         </Swiper>
                         </div>
                 </div>
              </div>
-            </motion.section>
+            </section>
     )
 }
 
