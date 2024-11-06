@@ -13,13 +13,13 @@ const services = [
   },
   {
     num:"02",
-    title: "Web Development",
+    title: "SEO",
     description : "",
     href : ""
   },
   {
     num:"03",
-    title: "Web Development",
+    title: "Freelancing",
     description : "",
     href : ""
   },
