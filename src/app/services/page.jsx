@@ -25,7 +25,7 @@ const services = [
   },
   {
     num:"04",
-    title: "Web Development",
+    title: "App Development",
     description : "",
     href : ""
   },
